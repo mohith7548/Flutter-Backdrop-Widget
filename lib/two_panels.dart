@@ -43,6 +43,7 @@ class _TwoPanelsState extends State<TwoPanels> {
               ),
             ),
           ),
+
           PositionedTransition(
             rect: getPanelAnimation(constraints),
             child: Material(
@@ -83,6 +84,7 @@ class _TwoPanelsState extends State<TwoPanels> {
               ),
             ),
           ),
+
         ],
       ),
     );
